@@ -1,0 +1,15 @@
+Files have a name and a path
+the root folder is the lowest, '/' on mac
+use fwd slashes in mac to separate path nodes
+os.path.join() to combine folders with appropriate slashes
+os.getcwd() to get current working directory
+os.chdir() to change the directory
+use '.' to assume folder names
+os.path.abspath() returns abs form of a path passed
+os.path.isabs() checks if absolute path
+os.path.relpath(a, b) returns relative path between two
+os.makedirs() makes folders
+os.path.getsize() returns filesize
+os.listdir() returns all the filenames in a directory
+os.path.exists() checks if a path exists
+os.path.isfile() checks if its a file with .<type>
